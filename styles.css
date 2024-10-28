@@ -3,11 +3,15 @@ section {
     height: 100vh;
 }
 
-.første {
+.start {
+    display: flex;
     justify-content: center;
-    align-items: center;
-    background-size: cover;
-    background-image: url(https://no.trolltunga.com/wp-content/uploads/2022/07/fn603bhm-Foto_Sveinung_Klyve-2048x1360-tiny.jpeg);
+    padding-right: 15%;
+    padding-left: 15%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: rgba(69, 68, 68, 0.6);
+    border-radius: 50%;
 }
 
 .TT-text {
@@ -21,11 +25,4 @@ section {
     padding-bottom: 3%;
     background-color: rgba(69, 68, 68, 0.6);
     border-radius: 50%;
-}
-
-.andre {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
 }
