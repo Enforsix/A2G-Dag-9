@@ -1,8 +1,27 @@
+
 section {
     height: 100vh;
 }
 
 .første {
     display: flex;
-    
+    justify-content: center;
+    align-items: center;
+}
+
+.andre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tredje {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+
 }
