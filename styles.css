@@ -1,4 +1,13 @@
 
+body{
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+}
 section {
     height: 100vh;
 }
@@ -25,4 +34,72 @@ section {
     padding-bottom: 3%;
     background-color: rgba(69, 68, 68, 0.6);
     border-radius: 50%;
+}
+
+.AK-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 15%;
+    padding-left: 15%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: rgba(69, 68, 68, 0.6);
+    border-radius: 50%;
+}
+
+.parkering {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.p1{
+    border: 3px solid black;
+}
+
+.p2 {
+    border: 3px solid black;
+}
+
+.p3 {
+    border: 3px solid black;
+}
+h3 {
+    margin-inline-start: 8px;
+    margin-inline-end: 8px;
+}
+
+.OD-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 15%;
+    padding-left: 15%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: rgba(69, 68, 68, 0.6);
+    border-radius: 50%;
+}
+
+footer {
+    border-top: 5px solid black;
+}
+
+@media (max-width: 426px) {
+nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.parkering {
+    display: flex;
+    flex-direction: column;
+    
+}     
 }
