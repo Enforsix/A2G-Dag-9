@@ -89,17 +89,23 @@ footer {
     border-top: 5px solid black;
 }
 
+@media (max-width: 769px){
+    .parkering {
+        display: flex;
+        flex-direction: column;
+}     
+}
+
 @media (max-width: 426px) {
 nav {
     display: flex;
     flex-direction: column;
     text-align: center;
-    
 }
 
 .parkering {
     display: flex;
     flex-direction: column;
-    
+
 }     
 }
