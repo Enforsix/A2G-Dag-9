@@ -17,27 +17,37 @@ section {
     align-content: center;
     flex-wrap: wrap;
     justify-content: center;
-    background-image: url(https://www.berg-hansen.no/content/uploads/2021/06/20210609_114302-scaled.jpg);
     background-size: cover;
+    background-image: url(https://www.berg-hansen.no/content/uploads/2021/06/20210609_114302-scaled.jpg);
+    
+    
 }
 
 .første {
-    background-image: url(https://assets.simpleviewcms.com/simpleview/image/fetch/c_fill,h_1080,w_1920/f_jpg/q_65/https://media.newmindmedia.com/TellUs/image/%3Ffile%3D332A28D14F62AB33E8964C05C5D0EE65F4D2AC65.jpg&dh%3D389&dw%3D800&t%3D4);
+    background: fixed;
     background-size: cover;
+    background-image: url(https://assets.simpleviewcms.com/simpleview/image/fetch/c_fill,h_1080,w_1920/f_jpg/q_65/https://media.newmindmedia.com/TellUs/image/%3Ffile%3D332A28D14F62AB33E8964C05C5D0EE65F4D2AC65.jpg&dh%3D389&dw%3D800&t%3D4);
+    
 }
 
 .ank {
-    background-image: url(https://www.visitbergen.com/imageresizer/?image=%2Fdmsimgs%2Fshutterstock_190452515_1111813334.jpg&action=ProductDetailExtraLargeNew);
+    background: fixed;
     background-size: cover;
+    background-image: url(https://www.visitbergen.com/imageresizer/?image=%2Fdmsimgs%2Fshutterstock_190452515_1111813334.jpg&action=ProductDetailExtraLargeNew);
+    
 }
 
 .tredje {
-    background-image: url(https://www.berg-hansen.no/content/uploads/2021/06/20210609_100150-scaled.jpg);
+    background: fixed;
     background-size: cover;
+    background-image: url(https://www.berg-hansen.no/content/uploads/2021/06/20210609_100150-scaled.jpg);
+    
 }
 .fjerde {
-    background-image: url(https://oklandfoto.no/wp-content/uploads/2021/02/DJI_0049.jpg);
+    background: fixed;
     background-size: cover;
+    background-image: url(https://oklandfoto.no/wp-content/uploads/2021/02/DJI_0049.jpg);
+    
 }
 
 .start {
@@ -47,7 +57,7 @@ section {
     padding-left: 15%;
     padding-top: 3%;
     padding-bottom: 3%;
-    background-color: rgba(69, 68, 68, 0.6);
+    background-color: rgba(193, 186, 186, 0.8);
     border-radius: 50%;
 }
 
@@ -60,7 +70,7 @@ section {
     padding-left: 15%;
     padding-top: 3%;
     padding-bottom: 3%;
-    background-color: rgba(69, 68, 68, 0.6);
+    background-color: rgba(193, 186, 186, 0.7);
     border-radius: 50%;
 }
 
@@ -73,7 +83,7 @@ section {
     padding-left: 15%;
     padding-top: 3%;
     padding-bottom: 3%;
-    background-color: rgba(69, 68, 68, 0.6);
+    background-color: rgba(193, 186, 186, 0.7);
     border-radius: 50%;
 }
 
@@ -92,19 +102,26 @@ section {
     border: 3px solid black;
     border-radius: 15px;
     margin: 5px;
+    background-color: black;
+    color: aliceblue;
 }
 
 .p2 {
     border: 3px solid black;
     border-radius: 15px;
     margin: 5px;
+    background-color: black;
+    color: aliceblue;
 }
 
 .p3 {
     border: 3px solid black;
     border-radius: 15px;
     margin: 5px;
+    background-color: black;
+    color: aliceblue;
 }
+
 h3 {
     margin-inline-start: 8px;
     margin-inline-end: 8px;
@@ -120,12 +137,15 @@ h3 {
     padding-left: 15%;
     padding-top: 3%;
     padding-bottom: 3%;
-    background-color: rgba(69, 68, 68, 0.6);
+    background-color: rgba(193, 186, 186, 0.7);
     border-radius: 50%;
 }
 
-footer {
+
+footer { 
+    display: flex;
     border-top: 5px solid black;
+    justify-content: center;
 }
 
 @media (max-width: 769px){
