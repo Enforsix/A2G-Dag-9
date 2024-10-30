@@ -28,13 +28,14 @@ section {
     justify-content: center;
     background-size: cover;
     background-image: url(https://www.berg-hansen.no/content/uploads/2021/06/20210609_114302-scaled.jpg);
+    
 }
 
 .første {
     background: fixed;
     background-size: cover;
     background-image: url(https://assets.simpleviewcms.com/simpleview/image/fetch/c_fill,h_1080,w_1920/f_jpg/q_65/https://media.newmindmedia.com/TellUs/image/%3Ffile%3D332A28D14F62AB33E8964C05C5D0EE65F4D2AC65.jpg&dh%3D389&dw%3D800&t%3D4);
-    
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
 }
 
 .ank {
@@ -79,7 +80,6 @@ p{
     text-align: center;
     padding-right: 15%;
     padding-left: 15%;
-    padding-top: 3%;
     padding-bottom: 3%;
     background-color: rgba(193, 186, 186, 0.7);
     border-radius: 50%;
@@ -92,7 +92,6 @@ p{
     text-align: center;
     padding-right: 15%;
     padding-left: 15%;
-    padding-top: 3%;
     padding-bottom: 3%;
     background-color: rgba(193, 186, 186, 0.7);
     border-radius: 50%;
